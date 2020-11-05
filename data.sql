@@ -50,5 +50,6 @@ We must tell hibernate the ids that have already been used.
 The number must be larger than the last used id.
 10 > 7 so we are good!
  */
+ 
 
 alter sequence hibernate_sequence restart with 10;
